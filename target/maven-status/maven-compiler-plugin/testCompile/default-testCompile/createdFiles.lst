@@ -1,0 +1,6 @@
+com\esha\saucedemo\tests\ProductTests.class
+com\esha\saucedemo\tests\SortingTests.class
+com\esha\saucedemo\tests\LogoutTests.class
+com\esha\saucedemo\tests\CartTests.class
+com\esha\saucedemo\tests\LoginTests.class
+com\esha\saucedemo\tests\CheckoutTests.class

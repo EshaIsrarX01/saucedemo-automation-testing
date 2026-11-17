@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- SMOKE suite: critical-path checks only. -->
+<suite name="SauceDemo Smoke Suite">
+    <test name="Smoke">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.esha.saucedemo.tests.LoginTests"/>
+            <class name="com.esha.saucedemo.tests.ProductTests"/>
+            <class name="com.esha.saucedemo.tests.SortingTests"/>
+            <class name="com.esha.saucedemo.tests.CartTests"/>
+            <class name="com.esha.saucedemo.tests.CheckoutTests"/>
+            <class name="com.esha.saucedemo.tests.LogoutTests"/>
+        </classes>
+    </test>
+</suite>
